@@ -1,0 +1,48 @@
+{
+  "name": "@padcom/grapesjs-check-empty-page",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint './src/**/*.{ts,vue}'",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "Matthias Hryniszak <padcom@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@padcom/eslint-config-vue": "^0.6.0",
+    "@tailwindcss/typography": "^0.5.9",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vitest/coverage-v8": "^0.34.3",
+    "@vue/test-utils": "^2.4.1",
+    "@vue/tsconfig": "^0.4.0",
+    "@vueuse/core": "^10.4.1",
+    "autoprefixer": "^10.4.15",
+    "grapesjs": "^0.21.5",
+    "jsdom": "^22.1.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.2",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-html": "^3.2.0",
+    "vitest": "^0.34.3",
+    "vue": "^3.3.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@padcom/eslint-config-vue"
+    ]
+  },
+  "homepage": "https://github.com/padcom/grapesjs-check-empty-page#readme",
+  "bugs": {
+    "url": "https://github.com/padcom/grapesjs-check-empty-page/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/padcom/grapesjs-check-empty-page.git"
+  }
+}
